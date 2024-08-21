@@ -19,7 +19,7 @@ void tjlang_interpret(char* app_module_name,char *file_name)
     central_state._phase._cleanup(central_state.flow.prev_data_handle,prev_process_state);
 
     char command[512] = "";
-    snprintf(command,512,"clang %s.c -shared -o %s.dll",app_module_name,app_module_name);
+    snprintf(command,512,"clang %s.c -shared -o %s.dll",app_module_name,app_module_name); //this is probably wrong,the wrong file is getting compiled but let me first fix that uienv problem (anoying litle ahh piece of sh!it)
     system(command);
 
     tjlang_interpreter();
