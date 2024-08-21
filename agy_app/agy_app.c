@@ -14,7 +14,7 @@ bool agy_app_init(tj_appstate* self) {
     printf("initalizing app\n");
     srand(time(NULL));
 
-    tj_uienv_tree_init();
+    uienv_tree = uienv_btree_init(tj_uienv_compare,tj_uienv_free);
 
     tj_render_config render_config = (tj_render_config) {
         .window_width = 1000,

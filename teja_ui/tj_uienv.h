@@ -14,7 +14,7 @@ typedef struct tj_uienv {
 
 _BINARY_TREE_PROTOTYPE(tj_uienv, uienv)
 
-static uienv_btree uienv_tree;
+extern uienv_btree uienv_tree;
 
 tj_uienv tj_uienv_init(char* env_name,u16 capacity,tj_uientity** ui_entities,string* tags);
 void tj_uienv_push(tj_uienv* ui_env,tj_uientity* uientt,char* tag);
@@ -22,7 +22,7 @@ tj_uientity* tj_uienv_get(tj_uienv* ui_env,char* tag);
 void tj_uienv_tick(tj_uienv* ui_env,tj_appstate* app_state);
 void tj_uienv_render(tj_uienv* ui_env);
 void tj_uienv_free(tj_uienv* ui_env);
-inline static i32 tj_uienv_compare(const tj_uienv* lhs,const tj_uienv* rhs) {return string_compare(lhs->tag,rhs->tag);}
+i32 tj_uienv_compare(const tj_uienv* lhs,const tj_uienv* rhs);
 static u16 uienv_hash(char* str,u16 capacity);
 
 inline static void tj_uienv_tree_init(void) { uienv_tree = uienv_btree_init(tj_uienv_compare,tj_uienv_free);}

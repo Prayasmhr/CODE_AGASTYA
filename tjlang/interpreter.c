@@ -39,6 +39,10 @@ typedef struct _interpreter_type_fntable_entry {
 // I know this is a very over complicated way to do this ,it could have been simpler but as i had OOP style for ui entity types, this is the best temporary i could think of.
 // few days later i said temporary my ass!
 // I think i will change the style of my ui entity types. That could make things better.
+//
+
+static void print_tag(tj_uienv env) {printf(" UIENV : %s\n",env.tag.data);}
+
 struct _interpreter_type_fntable {
     uientt_def_interpret_fn interpret_fns[2];
     u16 size;
@@ -157,7 +161,9 @@ static void _interpreter_interpret_uienv_instruction(tjlang_interpret_state* int
   }else if(env_instruction.data.env_definition.type == ENV_END) {
         printf("tracking interpretation flow [TJ_UIENV SIZE: %d]\n",env_instruction.data.env_definition.entities_defined);
         tj_uienv _uienv = tj_uienv_init(interpret_state->iterate.ui_env,env_instruction.data.env_definition.entities_defined,interpret_state->uienv_process.arr,interpret_state->uienv_process.tags);
-        tj_uienv_tree_insert(_uienv);
+        print_tag(_uienv);
+        uienv_btree_insert(&uienv_tree, _uienv);
+        uienv_tree.compare(NULL,NULL);
         interpret_state->iterate.inside_uienv = 0;
         interpret_state->uienv_process.arr_size = 0;
         free(interpret_state->uienv_process.arr);
