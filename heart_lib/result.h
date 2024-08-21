@@ -3,6 +3,10 @@
 
 #include"ht_defines.h"
 
+/*
+ I know this thing is not used anywhere but i will use it later, especially in the tjlang part
+*/
+
 typedef struct result {
     enum {
         SUCCESS,
