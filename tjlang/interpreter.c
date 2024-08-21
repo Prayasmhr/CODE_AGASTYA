@@ -156,6 +156,7 @@ static void _interpreter_interpret_uienv_instruction(tjlang_interpret_state* int
         interpret_state->iterate.inside_uienv = 1;
   }else if(env_instruction.data.env_definition.type == ENV_END) {
         printf("tracking interpretation flow [TJ_UIENV SIZE: %d]\n",env_instruction.data.env_definition.entities_defined);
+       //this line right here causing the problem, the tj_uienv_tree_insert one especially
         tj_uienv _uienv = tj_uienv_init(interpret_state->iterate.ui_env,env_instruction.data.env_definition.entities_defined,interpret_state->uienv_process.arr,interpret_state->uienv_process.tags);
         tj_uienv_tree_insert(_uienv);
         interpret_state->iterate.inside_uienv = 0;
