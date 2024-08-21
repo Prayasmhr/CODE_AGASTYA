@@ -5,6 +5,11 @@
 #include<SDL2/SDL.h>
 #include<SDL2/SDL_vulkan.h>
 
+
+/*
+    The code of the photon8_renderer will be done later, after completing tjlang part. 
+*/
+
 typedef struct photon8_core {
     VkInstance instance;
     VkDebugUtilsMessengerEXT debug_messenger;
