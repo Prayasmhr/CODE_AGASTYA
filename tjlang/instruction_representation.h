@@ -3,7 +3,6 @@
 
 #include"module.h"
 #include"../teja_ui/tj_asset.h"
-#define DEFAULT_zone_SIZE 8
 
 typedef struct env_definition_instruction {
     string tag;

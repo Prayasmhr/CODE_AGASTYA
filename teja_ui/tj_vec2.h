@@ -1,7 +1,7 @@
 #ifndef _TJ_VEC2_H
 #define _TJ_VEC2_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/ht_defines.h"
 
 #define _TJ_VEC2_TEMPLATE(type,prefix) \
 	typedef union __tj_vec2##prefix{\

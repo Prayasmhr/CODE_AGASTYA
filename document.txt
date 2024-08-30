@@ -1,6 +1,0 @@
-
-Earbuds-
-    -- ANC (or ENC (just enough))
-    -- LOW LATENCY
-    -- DRIVER - (11mm or 12mm (good), 10mm (average))
-    -- CIRCUIT - Qualcomm SNAPDRAGON CHIPSET (minimum BLUETOOTH 5.4 or Above)

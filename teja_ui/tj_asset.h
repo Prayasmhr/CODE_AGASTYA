@@ -1,7 +1,7 @@
 #ifndef _TJ_ASSET_H
 #define _TJ_ASSET_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/lib.h"
 #include"tj_vec2.h"
 
 typedef struct tj_image tj_image;

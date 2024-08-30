@@ -1,7 +1,6 @@
 #include"tj_button.h"
 #include"tj_input_state.h"
 
-
 tj_button new_tj_button(btn_callback cb,tj_color bg,tj_color fg,tj_image* img,tj_font* font,string text_buf){
 	tj_button self = malloc(sizeof(struct _tj_button_T));
 	self->bg = bg;
@@ -73,12 +72,6 @@ bool button_on_render(tj_button self) {
 			self->text_buffer.size + 1, self->text_buffer.data
 		);
 	}
-
-
-	// if(self->on_hover_anim.valid) {
-		
-	// }
-
 	return 1;
 }
 

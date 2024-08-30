@@ -2,8 +2,8 @@
 #define _TJLANG_TOKEN_DATA_LIST_H
 
 #include"central_enum_type.h"
-#include"../heart_lib/ht_string.h"
-#include"../heart_lib/ht_linkedlist.h"
+#include"heart_lib/ht_string.h"
+#include"heart_lib/ht_linkedlist.h"
 
 typedef struct tjlang_token{
     string data;

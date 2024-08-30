@@ -3,7 +3,7 @@
 
 #include"tj_vec2.h"
 #include"tj_appstate.h"
-#include"../vendor/SDL2/SDL.h"
+#include"SDL2/SDL.h"
 
 #define KEY_COUNT 255
 

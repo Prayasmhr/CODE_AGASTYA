@@ -3,6 +3,7 @@
 
 #define _EXPORT __declspec(dllexport)
 #include"../teja_ui/lib.h"
+#include"time.h"
 
 struct _tj_appobject {
     string message;

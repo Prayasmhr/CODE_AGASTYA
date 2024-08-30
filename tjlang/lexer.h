@@ -13,7 +13,6 @@ static bool _lexer_drive_internal(tjlang_lexer_state* lexer_state);
 static void _lexer_advance_with_schar(tjlang_lexer_state* lexer_state,tjlang_central_enum token_type, bool with_identifier);
 static void _lexer_advance_with_operator(tjlang_lexer_state* lexer_state);
 static void _lexer_advance_with_colon(tjlang_lexer_state* lexer_state);
-static void _lexer_advance_with_func(tjlang_lexer_state* lexer_state);
 static void _lexer_advance_with_string(tjlang_lexer_state* lexer_state);
 static void _lexer_advance_with_identifier(tjlang_lexer_state* lexer_state);
 static void _lexer_advance_with_uientt_typespec(tjlang_lexer_state* lexer_state);

@@ -1,8 +1,9 @@
 #ifndef _TJ_EVENTHANDLER_H
 #define _TJ_EVENTHANDLER_H
 
-#include"../vendor/SDL2/SDL.h"
-#include"../heart_lib/lib.h"
+#include"SDL2/SDL.h"
+#include"stdio.h"
+#include"memory.h"
 #include"tj_appstate.h"
 
 #define MAX_EVENT_COUNT 32512

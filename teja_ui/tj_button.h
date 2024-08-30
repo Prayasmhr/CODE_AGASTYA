@@ -1,7 +1,7 @@
 #ifndef _TJ_BUTTON_H
 #define _TJ_BUTTON_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/lib.h"
 #include"tj_renderer.h"
 #include"tj_ui_entity.h"
 

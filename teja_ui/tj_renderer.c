@@ -1,6 +1,4 @@
 #include "tj_renderer.h"
-#include "../heart_lib/ht_dynlib.h"
-#include "../heart_lib/ht_string.h"
 
 tj_render_engine render_engine;
 asset_btree asset_tree;
@@ -60,7 +58,7 @@ tj_asset *asset_btree_search_by_tag(char *asset_tag)
     tj_asset *out = asset_btree_search(&asset_tree,search);
     if (out == NULL)
     {
-        printf("could not find font\n");
+        printf("could not find asset [%s]\n",asset_tag);
     }
     return out;
 }

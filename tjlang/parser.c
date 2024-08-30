@@ -114,7 +114,6 @@ static void _parser_handle_keyword(tjlang_parser_state* parser_state) {
         _ir_zone_push_instruction(uientt_def_zone, uientt_defbegin_instruction);
         _PARSER_ADVANCE_TOKEN(parser_state);
 
-        printf("%s",parser_state->curr_token->data.data);
         _parser_acquire_uientt_prop_assignments(parser_state,uientt_def_zone);
         _ir_push_zone(parser_state->core.ir, uientt_def_zone);
         parser_state->uienv_process.count += 1;
@@ -224,14 +223,12 @@ static void _parser_handle_asset_def(tjlang_parser_state* parser_state) {
         asset_load_instruction.data.load_asset.load_asset_type = LOAD_ASSET_FONT;
         asset_load_instruction.data.load_asset.path = malloc(parser_state->curr_token->data.size + 1);
         snprintf(asset_load_instruction.data.load_asset.path, parser_state->curr_token->data.size + 1,"%s",parser_state->curr_token->data.data);
-        printf("FONT PATH: %s\n",asset_load_instruction.data.load_asset.path);
         _ir_zone_push_instruction(asset_load_zone,asset_load_instruction);
         _parser_acquire_font_specs(parser_state,asset_load_zone);
     }else if(strncmp(asset_type_token->data.data,"Image",6) == 0) {
         asset_load_instruction.data.load_asset.load_asset_type = LOAD_ASSET_IMAGE;
         asset_load_instruction.data.load_asset.path = malloc(parser_state->curr_token->data.size + 1);
         snprintf(asset_load_instruction.data.load_asset.path, parser_state->curr_token->data.size + 1, "%s",parser_state->curr_token->data.data);
-        printf("%s\n",asset_load_instruction.data.load_asset.path);
         _ir_zone_push_instruction(asset_load_zone,asset_load_instruction);
         _parser_acquire_image_specs(parser_state,asset_load_zone);
     }
@@ -453,8 +450,8 @@ static void _parser_acquire_image_specs(tjlang_parser_state* parser_state,tjlang
             PARSER_LOG("expected a vec2 / array of 2 integers",parser_state->curr_token->line,parser_state->curr_token->line_point);
         }
         _PARSER_ADVANCE_TOKEN(parser_state);
-        if(parser_state->curr_token->type != TOKEN_TYPE_TYPE_SPEC && strncmp(parser_state->curr_token->data.data,"UInt",3) != 0) {
-            PARSER_LOG("expected a vec2 / array of 2 unsigned integers",parser_state->curr_token->line,parser_state->curr_token->line_point);
+        if(parser_state->curr_token->type != TOKEN_TYPE_TYPE_SPEC && strncmp(parser_state->curr_token->data.data,"Int",3) != 0) {
+            PARSER_LOG("expected a vec2 / array of 2 integers",parser_state->curr_token->line,parser_state->curr_token->line_point);
         }
 
         u64 size = 0;

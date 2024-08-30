@@ -23,7 +23,6 @@ tj_label new_tj_label(string text_buf,tj_color fg,tj_color bg,tj_font* font,tj_i
 
 bool label_on_create(tj_label self) {
     if(self->image) {
-        printf("still working\n");
         self->base.geometry_info.dimension = render_engine.get_image_size(self->image);
     }
     return 1;

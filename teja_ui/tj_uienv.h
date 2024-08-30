@@ -1,7 +1,8 @@
 #ifndef _TJ_UIENV_H
 #define _TJ_UIENV_H
 
-#include"../teja_ui/tj_ui_entity.h"
+#include"tj_ui_entity.h"
+#include"tj_uisector.h"
 
 typedef struct tj_uienv_layout tj_uienv_layout;
 

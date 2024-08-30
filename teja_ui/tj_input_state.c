@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"tj_input_state.h"
 
 typedef struct {

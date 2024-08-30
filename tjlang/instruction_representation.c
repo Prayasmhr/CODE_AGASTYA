@@ -31,15 +31,6 @@ void _ir_zone_push_instruction(tjlang_ir_zone* zone, tjlang_ir_instruction instr
         zone->capacity += 4;
         zone->instructions = malloc(sizeof(tjlang_ir_instruction) * zone->capacity);
     }
-    if(instruction.type == IR_SET_UIENTT_PROPERTY && instruction.data.set_uientt_prop.data_type == UIENTT_PROP_DATA_TYPE_ARRAY) {
-        tjlang_ir_instruction* array_instruction = (tjlang_ir_instruction*)instruction.data.set_uientt_prop.value;
-        for(int i = 0;i < array_instruction->data.new_array.size; i++) {
-            if(array_instruction->data.new_array.element_type == BASIC_LANG_TYPE_UINTEGER) {
-                printf("%u\n",array_instruction->data.new_array.arr.uint32[i]);
-            }
-        }
-        printf("uinteger array\n");
-    }
     zone->instructions[zone->size++] = instruction;
 }
 

@@ -1,7 +1,7 @@
 #ifndef _TJ_RENDERTYPES_H
 #define _TJ_RENDERTYPES_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/ht_defines.h"
 
 typedef struct {
     f32 x;

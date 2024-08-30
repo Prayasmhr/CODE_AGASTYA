@@ -2,7 +2,7 @@
 #define _TJ_ENTRYPOINT_H
 
 #include"tj_appstate.h"
-#include"../heart_lib/ht_defines.h"
+#include"heart_lib/ht_defines.h"
 
 typedef i32 (*tj_entrypoint_main_fn)(tj_appstate*);
 

@@ -1,7 +1,7 @@
 #ifndef _TJ_UI_ENTITY_H
 #define _TJ_UI_ENTITY_H
 
-#include"../heart_lib/ht_defines.h"
+#include"heart_lib/ht_defines.h"
 #include"tj_appstate.h"
 #include"tj_renderer.h"
 #include"tj_asset.h"

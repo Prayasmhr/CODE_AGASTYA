@@ -1,8 +1,6 @@
 #ifndef _TJLANG_CENTRAL_ENUM_TYPE_H
 #define _TJLANG_CENTRAL_ENUM_TYPE_H
 
-#include"../heart_lib/ht_defines.h"
-
 typedef enum tjlang_central_enum {
     // basic script types
     BASIC_LANG_TYPE_INTEGER,

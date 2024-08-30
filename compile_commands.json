@@ -1,0 +1,188 @@
+[
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_button.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_button.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_button.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_button.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_entrypoint.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_entrypoint.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_entrypoint.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_entrypoint.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_event_handler.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_event_handler.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_event_handler.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_event_handler.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_input_state.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_input_state.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_input_state.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_input_state.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_label.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_label.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_label.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_label.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_renderer.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_renderer.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_renderer.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_renderer.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\teja_ui\\tj_uienv.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_uienv.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_uienv.c",
+  "output": "CMakeFiles\\code_agy.dir\\teja_ui\\tj_uienv.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\instruction_representation.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\instruction_representation.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\instruction_representation.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\instruction_representation.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\interpreter.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\interpreter.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\interpreter.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\interpreter.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\lexer.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\lexer.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\lexer.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\lexer.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\parser.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\parser.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\parser.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\parser.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\tjlang.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\tjlang.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\tjlang.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\tjlang.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\tjlang\\token_data_list.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\token_data_list.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\token_data_list.c",
+  "output": "CMakeFiles\\code_agy.dir\\tjlang\\token_data_list.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\agy_app\\agy_app.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\agy_app.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\agy_app.c",
+  "output": "CMakeFiles\\code_agy.dir\\agy_app\\agy_app.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\code_agy.dir\\agy_app\\main.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\main.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\main.c",
+  "output": "CMakeFiles\\code_agy.dir\\agy_app\\main.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_button.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_button.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_button.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_button.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_entrypoint.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_entrypoint.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_entrypoint.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_entrypoint.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_event_handler.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_event_handler.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_event_handler.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_event_handler.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_input_state.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_input_state.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_input_state.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_input_state.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_label.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_label.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_label.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_label.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_renderer.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_renderer.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_renderer.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_renderer.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\teja_ui\\tj_uienv.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_uienv.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\teja_ui\\tj_uienv.c",
+  "output": "CMakeFiles\\debug_agy.dir\\teja_ui\\tj_uienv.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\instruction_representation.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\instruction_representation.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\instruction_representation.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\instruction_representation.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\interpreter.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\interpreter.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\interpreter.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\interpreter.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\lexer.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\lexer.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\lexer.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\lexer.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\parser.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\parser.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\parser.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\parser.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\tjlang.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\tjlang.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\tjlang.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\tjlang.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\tjlang\\token_data_list.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\token_data_list.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\tjlang\\token_data_list.c",
+  "output": "CMakeFiles\\debug_agy.dir\\tjlang\\token_data_list.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\agy_app\\agy_app.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\agy_app.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\agy_app.c",
+  "output": "CMakeFiles\\debug_agy.dir\\agy_app\\agy_app.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\debug_agy.dir\\agy_app\\main.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\main.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\agy_app\\main.c",
+  "output": "CMakeFiles\\debug_agy.dir\\agy_app\\main.c.obj"
+},
+{
+  "directory": "C:/Users/Prayas Meher/code_agastya",
+  "command": "C:\\Users\\PRAYAS~1\\scoop\\apps\\llvm\\current\\bin\\clang.exe -Dray_renderer_EXPORTS -I\"C:/Users/Prayas Meher/code_agastya/vendor\" -IC:/VulkanSDK/1.3.250.1/Include  -g -Wall -Werror -Wpedantic -Wno-unused-function -Wno-switch -D_CRT_SECURE_NO_WARNINGS -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles\\ray_renderer.dir\\ray_renderer\\ray_renderer.c.obj -c \"C:\\Users\\Prayas Meher\\code_agastya\\ray_renderer\\ray_renderer.c\"",
+  "file": "C:\\Users\\Prayas Meher\\code_agastya\\ray_renderer\\ray_renderer.c",
+  "output": "CMakeFiles\\ray_renderer.dir\\ray_renderer\\ray_renderer.c.obj"
+}
+]

@@ -1,7 +1,7 @@
 #ifndef _TJ_RENDERER_H
 #define _TJ_RENDERER_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/lib.h"
 #include"tj_asset.h"
 #include"tj_vec2.h"
 #include"tj_render_types.h"

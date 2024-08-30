@@ -1,7 +1,7 @@
 #ifndef _TJLANG_MODULE_H
 #define _TJLANG_MODULE_H
 
-#include"../heart_lib/lib.h"
+#include"heart_lib/lib.h"
 #include"central_enum_type.h"
 #include"token_data_list.h"
 #include"phase.h"
@@ -22,7 +22,7 @@ typedef struct tjlang_central_state {
     char app_module[512];
 } tjlang_central_state;
 
-static tjlang_central_state central_state;
+extern tjlang_central_state central_state;
 
 inline static void set_app_module( char _app_module[512]) {snprintf(central_state.app_module,512,"%s",_app_module); }
 inline static char* get_app_module(void) { return central_state.app_module; }

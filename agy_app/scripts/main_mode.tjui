@@ -1,0 +1,21 @@
+::nova_font64 Font "assets/fonts/NovaMono-Regular.ttf" (64)
+
+__env_begin main_mode_env
+
+__define_sector_begin main_sector
+    position: [Int]*2 -> {256,0}
+    dimension: [Int]*2 -> {1024,960}
+    render: main_sector_render
+__define_sector_end
+
+__begin project_agy_label |tj_label|
+    sector: main_sector
+    text_buffer: "CODE: _AGASTYA"
+    position: [Int]*2 -> {32,32}
+    dimension: [Int]*2 -> {600,86}
+    font: novafont64
+    bg: [UInt]*4 -> {25,25,25,255}
+    fg: [UInt]*4 -> {255,255,255,255}
+__end
+
+__env_end

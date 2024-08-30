@@ -5,9 +5,9 @@
     #error "unsupported platform"
 #endif
 
-#include"../vendor/SDL2/SDL.h"
-#include"../vendor/SDL2/SDL_ttf.h"
-#include"../vendor/SDL2/SDL_image.h"
+#include"SDL2/SDL.h"
+#include"SDL2/SDL_ttf.h"
+#include"SDL2/SDL_image.h"
 #include"../teja_ui/tj_renderer.h"
 #include"../teja_ui/tj_asset.h"
 #include"stdarg.h"
